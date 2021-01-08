@@ -8,6 +8,7 @@
 
     <title>Festő klub</title>
   </head>
+
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Festő klub</a>
@@ -40,7 +41,8 @@
               </li>
           </ul>
         </div>
-      </nav>
+       </nav> <!--nav vége -->
+
       <header>
         <div id="indexCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -79,11 +81,11 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Következő</span>
           </a>
-        </div>
+         </div> <!--carousel vége -->
       </header>
-      <!--  media object -->
+
       <main>
-        <section class="py-5">
+        <section class="py-5"> <!--  media object -->
           <div class="container">
             <div class="row">
               <div class="col-md-4">
@@ -94,7 +96,7 @@
                      és dező senyős. Az unkos pillák után paros lélő</p>
                   </div>
                 </div>
-              </div>
+               </div> <!--1. vége -->
               <div class="col-md-4">
                 <div class="media">
                   <i class="fa fa-user-graduate fa-2x fa-fw mr-3" aria-hidden="true"></i>
@@ -104,7 +106,7 @@
                        Az unkos pillák után paros lélő</p>
                   </div>
                 </div>
-              </div>
+              </div><!--2. vége -->
               <div class="col-md-4">
                 <div class="media">
                   <i class="fa fa-laptop-code fa-2x fa-fw mr-3" aria-hidden="true"></i>
@@ -114,11 +116,12 @@
                        Az unkos pillák után paros lélő</p>
                   </div>
                 </div>
-              </div>
+              </div><!--3. vége -->
             </div>
           </div>
         </section>
-        <section>
+
+         <section> <!--Legfrisebb bejegyzések eleje -->
           <div class="py-5 bg-light">
             <div class="container">
               <div class="row">
@@ -175,95 +178,164 @@
             </div>
           </div>
         </section>
-        <section>
+
+         <section> <!--cards eleje -->
           <div class="py-5">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-12">
                   <h1 class="text-center">Tanfolyamok</h1>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                <div class="col-sm-6 col-lg-4 col-xl-2 mb-4 mb-xl-0">
+                   <div class="card h-100"> <!--h-100 magasság egyforma legyen -->
                     <img src="img/tanfolyamok/kicsi-cipo.jpg" class="card-img-top" alt="Rajz">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column bg-light">
                       <h5 class="card-title">Rajz</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
+                         and make up the bulk of the card's content.Some quick example text to build
+                          on the card title
                          and make up the bulk of the card's content.</p>
                       <a href="#" class="card-link">Kártya link</a>
                     </div>
                   </div>
-                </div> <!-- card vége -->
-                <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                </div> <!--1. card vége -->
+                <div class="col-sm-6 col-lg-4 col-xl-2 mb-4 mb-xl-0">
+                  <div class="card h-100">
                     <img src="img/tanfolyamok/kis-lepke.jpg" class="card-img-top" alt="akvarell">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column bg-light">
                       <h5 class="card-title">Akvarell</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
                          and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Kártya link</a>
+                       <a href="#" class="card-link mt-auto">Kártya link</a> <!--mt-auto link alulra kerül  -->
                     </div>
                   </div>
-                </div> <!-- card vége -->
-                <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                </div> <!--2. card vége -->
+                <div class="col-sm-6 col-lg-4 col-xl-2 mb-4 mb-xl-0">
+                  <div class="card h-100">
                     <img src="img/tanfolyamok/olaj.jpg" class="card-img-top" alt="Olajfestés">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column bg-light">
                       <h5 class="card-title">Olajfestés</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
                          and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Kártya link</a>
+                      <a href="#" class="card-link mt-auto">Kártya link</a>
                     </div>
                   </div>
-                </div> <!-- card vége -->
-                <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                </div> <!--3. card vége -->
+                <div class="col-sm-6 col-lg-4 col-xl-2 mb-4 mb-sm-0">
+                  <div class="card h-100">
                     <img src="img/tanfolyamok/karacsony-kicsi.jpg" class="card-img-top" alt="Tájfestészet">
-                    <div class="card-body">
-                      <h5 class="card-title">Tájfestészet</h5>
+                    <div class="card-body d-flex flex-column bg-light">
+                      <h5 class="card-title">Tájfestészet
+                         <span class="badge badge-danger">Új</span></h5> <!--Új badge -->
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
                          and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Kártya link</a>
+                      <a href="#" class="card-link mt-auto">Kártya link</a>
                     </div>
                   </div>
-                </div> <!-- card vége -->
-                <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                </div> <!--4. card vége -->
+                <div class="col-sm-6 col-lg-4 col-xl-2 mb-4 mb-xl-0">
+                  <div class="card h-100">
                     <img src="img/carousel/fehervar.jpg" class="card-img-top" alt="Utca fetés">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column bg-light">
                       <h5 class="card-title">Utca fetés</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
                          and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Kártya link</a>
+                      <a href="#" class="card-link mt-auto">Kártya link</a>
                     </div>
                   </div>
-                </div> <!-- card vége -->
+                </div> <!--5. card vége -->
                 <div class="col-sm-6 col-lg-4 col-xl-2">
-                  <div class="card">
+                  <div class="card h-100">
                     <img src="img/tanfolyamok/mokus-kicsi.jpg" class="card-img-top" alt="Állatfestészet">
-                    <div class="card-body">
-                      <h5 class="card-title">Állatfestészet</h5>
+                    <div class="card-body d-flex flex-column bg-light">
+                      <h5 class="card-title">Állatfestészet még valami cím</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                       <p class="card-text">Some quick example text to build on the card title
                          and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Kártya link</a>
+                      <a href="#" class="card-link mt-auto">Kártya link</a>
                     </div>
                   </div>
-                </div> <!-- card vége -->
+                </div> <!--6. card vége -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <section class="py-5 bg-light"> <!--Rólunk mondták eleje-->
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="text-center mb-5">Rólunk mondták</h1>
+                 <blockquote class="blockquote text-center"> <!--Typograhphy blockquote -->
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
               </div>
             </div>
           </div>
         </section>
       </main>
+
+       <footer class="py-4 text-white text-center text-md-left bg-dark"> <!--foter eleje -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+               <h5 class="mb-3 mb-4 mb-md-0">Navigáció</h5> <!--Navigáció eleje -->
+              <nav class="nav flex-column">
+                <a class="text-white mb-2" href="blog.html">Blog</a>
+                <a class="text-white mb-2" href="index.html">Főoldal</a>
+                <a class="text-white mb-2" href="tanfolyamok.html">Tanfolyamok</a>
+                <a class="text-white mb-2" href="elofizetesek.html">Előfizetések</a>
+                <a class="text-white mb-2" href="tanarok.html">Tanárok</a>
+                <a class="text-white mb-2" href="gyik.html">Kérdések és válaszok</a>
+                <a class="text-white" href="kapcsolat.html">Kapcsolat</a>
+              </nav>
+             </div> <!--col-md-4 vége -->
+            <div class="col-md-4 mb-4 mb-md-0">
+              <h5 class="mb-3">Legfrisebb bejegyzések</h5> 
+              <nav class="nav flex-column">
+                <a class="text-white mb-2" href="#">Lórum ipse</a>
+                <a class="text-white mb-2" href="#">Lórum ipse</a>
+                <a class="text-white mb-2" href="#">Lórum ipse</a>
+                <a class="text-white mb-2" href="#">Lórum ipse</a>
+                <a class="text-white mb-2" href="#">Lórum ipse</a>
+                
+              </nav>
+            </div>
+            <div class="col-md-4">
+              <address>
+                Fess Velem Bt.<br>
+                Székesfehérvár Tóvárosi LN. 42
+              </address>
+               <nav class="nav justify-content-center justify-content-md-start"> <!--tooltip-szövegbuborék -->
+                 <a href="#" class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Facebook"> <!--1.ikon eleje -->
+                  <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+                  <span class="sr-only">Link a cég Facebook oldalára</span><!-- hangos felolvasó szoftverek miatt kell -->
+                </a>
+                <a href="#" class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Twitter"> <!--2.ikon eleje -->
+                  <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
+                  <span class="sr-only">Link a cég Twitter oldalára</span><!-- hangos felolvasó szoftverek miatt kell -->
+                </a>
+                <a href="#" class="text-white" data-toggle="tooltip" data-placement="top" title="Linkedin"> <!--3.ikon eleje -->
+                  <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+                  <span class="sr-only">Link a cég Linkedin oldalára</span><!-- hangos felolvasó szoftverek miatt kell -->
+                </a>
+              </nav>
+            </div> <!--col-md-4 vége -->
+          </div>
+        </div>
+      </footer>
+      
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    
+    <script src="js/main.js"></script>
   <script>
     $('#indexCarousel').carousel({
       interval: 8000
